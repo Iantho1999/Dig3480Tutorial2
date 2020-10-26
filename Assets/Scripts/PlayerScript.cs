@@ -88,6 +88,7 @@ public class PlayerScript : MonoBehaviour
             if (scoreValue == 4)
             {
                 livesValue = 3;
+                lives.text = "Lives:" + livesValue.ToString();
                 transform.position = new Vector2(50.0f, 0.0f);
             }
             else if (scoreValue >= 8)

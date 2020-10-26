@@ -8,7 +8,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
@@ -19,10 +18,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -86,13 +83,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 13952}
+      Script: {instanceID: 13556}
     - Class: 114
-      Script: {instanceID: 14400}
+      Script: {instanceID: 13954}
     - Class: 114
-      Script: {instanceID: 15034}
+      Script: {instanceID: 14402}
     - Class: 114
-      Script: {instanceID: 19108}
+      Script: {instanceID: 15036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -410,6 +407,12 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyScript
+  - hash:
+      serializedVersion: 2
       Hash: f087c23fbfa15475a0d110af46fb0496
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -618,12 +621,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: e08dc097b830ae769e9cdd9b04e903ac
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
